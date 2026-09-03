@@ -8,12 +8,18 @@ using namespace std;
 
 int main()
 {
-	int hisAge = 99; 
+	//unsigned int theNumber = 4'294'967'297; //2^32
+
+	//cout << theNumber << "\n";
+
+
+	int hisAge = 49; 
 	
 	string hisName;
 
 	cout << "What is your name?\n";
-	cin >> hisName; //reading the input and storing it in the variable
+	//cin >> hisName; //reading the input and storing it in the variable
+	getline(cin, hisName);
 
 	//prompt Cordaveon for his age: 
 	cout << "What is your age, " << hisName << "?\n";
