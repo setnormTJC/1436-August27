@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	int hisAge = 19; 
+	int hisAge = 99; 
 	
 	string hisName;
 
