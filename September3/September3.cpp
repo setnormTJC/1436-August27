@@ -18,7 +18,7 @@ int main()
 	string hisName;
 
 	cout << "What is your name?\n";
-	//cin >> hisName; //reading the input and storing it in the variable
+	
 	getline(cin, hisName);
 
 	//prompt Cordaveon for his age: 
