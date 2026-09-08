@@ -8,19 +8,24 @@ using namespace std;
 
 int main()
 {
-	int hisAge = 19; 
-	
-	string hisName;
-
+	/*reading and "echoing" (confirming) the user's NAME:*******************************************/
+	string userName;
 	cout << "What is your name?\n";
-	cin >> hisName; //reading the input and storing it in the variable
+	getline(cin, userName); 
 
-	//prompt Cordaveon for his age: 
-	cout << "What is your age, " << hisName << "?\n";
-	cin >> hisAge; //reading the input and storing it in the variable
+	/*reading and echoing the user's AGE**********************************************/
+	string userAge = "19"; //this is an "initialization" statement (set age to initial value)
+	cout << "What is your age, " << userName << "?\n";
+	getline(cin, userAge); 
 
-	//this will print his name and age: 
-	cout << hisName << " is " << hisAge << " years old.\n";
+	cout << userName << " is " << userAge << " years old.\n";
 
+	/*Finally, get the user's favorite tv show****************************************/
+	cout << "What is your favorite television program?\n";
+	string users_favorite_tv_show; //(unitialized) snake_case variable name example
+	getline(cin, users_favorite_tv_show);
+	cout << "You entered this as your fave tv show: " << users_favorite_tv_show << "\n";
+
+	return 0; 
 }
 
