@@ -9,8 +9,23 @@ int main()
 {
     //Isaac Demster
     //Sameer Khan (Star Trek)
-
+    //RAND_MAX
     //bool isLightGreen = false;
+
+    int concreteTemperature = 100; //F
+
+    if (concreteTemperature > 100)
+    {
+        cout << "That concrete is QUITE hot - don't go barefoot!\n";
+    }
+
+    else //concrete temp <= 100
+    {
+        cout << "Go barefoot if thou wishest\n";
+    }
+
+
+
     string currentLightColor = "red"; 
 
     if (currentLightColor == "green")
