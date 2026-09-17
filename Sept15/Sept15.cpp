@@ -1,6 +1,7 @@
 // Sept15.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#include<algorithm>
 #include<fstream> //f stands for file
 #include <iostream>//io stands for input/output
 #include<string> //getline
